@@ -19,7 +19,7 @@ var api = new ParseServer({
   serverURL: process.env.SERVER_URL || 'https://appology.azurewebsites.net/parse/',  // Don't forget to change to https if needed
   verifyUserEmails: true,
   publicServerURL: 'https://appology.azurewebsites.net/parse/',
-  appName: 'parse-on-appology',
+  appName: 'USD Mobile App',
   liveQuery: {
     classNames: ["User", "Comments"] // List of classes to support for query subscriptions
   },
